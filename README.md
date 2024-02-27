@@ -1,2 +1,4 @@
-# ipca-pro-rata-data-pipeline
-This repository 
+# Introduction
+This repository introduces an advanced data pipeline built with Apache Beam, designed to seamlessly extract and process the Brazilian IPCA Pro Rata (Índice de Preços ao Consumidor Amplo) series, a critical index published daily by BM&F. The IPCA Pro Rata is integral for indexing inflation-protected financial instruments, including government bonds (NTN-B), corporate bonds (debentures), and derivatives like DAP (Cupom de IPCA), making this data essential for financial market analysis and decision-making.
+
+Crafted in Python and utilizing Google Cloud Dataflow for high-performance data processing, this pipeline automates the transfer of processed data into a Google Cloud BigQuery table, facilitating easy access and analysis. The repository details the setup and deployment process for the data pipeline and includes instructions for scheduling periodic updates via Google Cloud Scheduler. This ensures that financial analysts and engineers have the most current data at their fingertips, enabling them to make informed decisions based on accurate inflation trends. Ideal for those involved in managing or analyzing inflation-protected securities, this solution streamlines data workflows and enhances the precision of financial analyses.
